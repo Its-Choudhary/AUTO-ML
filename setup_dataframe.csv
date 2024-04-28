@@ -1,0 +1,24 @@
+Description,Value
+Session id,7173
+Target,Pclass
+Target type,Regression
+Original data shape,"(891, 12)"
+Transformed data shape,"(891, 14)"
+Transformed train set shape,"(623, 14)"
+Transformed test set shape,"(268, 14)"
+Numeric features,6
+Categorical features,5
+Rows with missing values,79.5%
+Preprocess,True
+Imputation type,simple
+Numeric imputation,mean
+Categorical imputation,mode
+Maximum one-hot encoding,25
+Encoding method,
+Fold Generator,KFold
+Fold Number,10
+CPU Jobs,-1
+Use GPU,False
+Log Experiment,False
+Experiment Name,reg-default-name
+USI,2338
